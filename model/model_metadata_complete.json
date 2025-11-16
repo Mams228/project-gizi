@@ -1,0 +1,39 @@
+{
+    "model_type": "Random Forest",
+    "model_params": "{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 15, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 5, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 200, 'n_jobs': -1, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}",
+    "selected_features": [
+        "z_score_bb_tb",
+        "z_score_mean",
+        "z_score_tb_u",
+        "weight_deviation",
+        "nutrition_risk",
+        "weight_height_ratio",
+        "z_tb_u_squared",
+        "z_score_bb_u",
+        "bmi",
+        "z_score_variance",
+        "muac_zscore",
+        "z_bb_u_squared",
+        "bb_u_x_bb_tb",
+        "bb_u_x_tb_u",
+        "z_bb_tb_squared"
+    ],
+    "feature_count": 15,
+    "training_samples": 7525,
+    "test_accuracy": 1.0,
+    "cv_mean": 0.9982,
+    "cv_std": 0.0007483314773547889,
+    "classes": [
+        "Gizi Baik",
+        "Gizi Buruk",
+        "Gizi Kurang",
+        "Gizi Lebih",
+        "Stunting"
+    ],
+    "train_date": "2025-11-16 07:20:25",
+    "data_shape": [
+        5000,
+        24
+    ],
+    "smote_applied": true
+}
