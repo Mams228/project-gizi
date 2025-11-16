@@ -1,0 +1,5 @@
+Command:
+python ^"C:^\xampp^\htdocs^\project_gizi/model/predict_gizi.py^" L 3 3.5 54
+
+Output:
+NULL

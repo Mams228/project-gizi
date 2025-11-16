@@ -1,0 +1,10 @@
+Umur_Bulan
+Berat_Badan_kg
+Tinggi_Badan_cm
+Jenis_Kelamin
+BMI
+BB_per_Umur
+TB_per_Umur
+Z_Score_BB_U
+Z_Score_TB_U
+Z_Score_BB_TB
